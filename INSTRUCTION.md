@@ -20,7 +20,7 @@ kubectl apply -f .infrastructure/ ...
 Apply the RBAC configuration located inside the security directory:
 
 ```
-kubectl apply -f .infrastructure/security/rbac.yaml
+kubectl apply -f .infrastructure/security/rbac.yml
 ```
 Verify that the ServiceAccount, Role, and RoleBinding were created successfully:
 
