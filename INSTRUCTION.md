@@ -54,7 +54,7 @@ Inside the pod's container terminal, copy and paste the following block of comma
 ### Define service account credentials paths
 ```
 SERVICEACCOUNT=/var/run/secrets/kubernetes.io/serviceaccount
-APISERVER=[https://kubernetes.default.svc](https://kubernetes.default.svc)
+APISERVER=https://kubernetes.default.svc
 TOKEN=$(cat ${SERVICEACCOUNT}/token)
 CACERT=${SERVICEACCOUNT}/ca.crt
 ```
